@@ -5,7 +5,9 @@ app/src/main/assets/game/
 
 ##如何调用java来播放音频文件
 1，将wav,mp3文件放入app/src/main/res/raw中，所有音频文件名用小写
+
 2，打开app/src/main/java/com/lufylegend/game/Lufylegend.java，将音频文件列表依次添加到soundInit函数中的相应位置
+
 3，js中使用LPlugin.playSE(name)来播放wav文件，使用LPlugin.playBGM(name)来播放mp3文件
 
 ##扩展
