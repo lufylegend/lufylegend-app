@@ -10,6 +10,12 @@ app/src/main/assets/game/
 
 3，js中使用LPlugin.playSE(name)来播放wav文件，使用LPlugin.playBGM(name)来播放mp3文件
 
+##app名称
+修改app/src/main/res/values/strings.xml文件
+
+##app横竖屏设置
+修改AndroidManifest.xml文件的android:screenOrientation属性
+
 ##扩展
 app/src/main/java/com/lufylegend/game/Lufylegend.java 中添加java函数，js中通过LPlugin.函数名()直接调用，例如：
 ###java代码
